@@ -1,0 +1,17 @@
+
+            var color  =[
+            'red',
+            'green',
+            'blue'
+        ];
+        var student2 = {
+            name: 'fawaz',
+            age: 14,
+            grade: '6',
+            hobby: 'football'
+        };
+          document.write ("student name is " + student.name + "<br>","  student hobby is " +student.hobby);
+          document.write("Before Poping the colors are:" +color.join("^")  );
+          document.write("my favorite color is " + color[1] + "<br>");
+          color.pop();
+          document.write("After Poping the colors are:" +color.join("*")  );

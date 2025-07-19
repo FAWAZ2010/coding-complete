@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="search-result"></p>
+    <p id="replace-result"></p>
+    <p id="string-result"></p>
+    <script>
+        var str = "hello how are doing for the day";
+        var search_position = str.search("doing");
+        var txt = str.replace("how are","how are you");
+        var x = 40;
+        var y = 20;
+        document.getElementById("search-result").innerHTML = search_position;
+        document.getElementById("replace-result").innerHTML = txt;
+        document.getElementById("string-result").innerHTML = String(x) + String(y);
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VALIDATION FILE</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script vald file.js"></script>
+</head>
+<body>
+    <H1>VALIDATION FILE</H1>
+    <br><br>
+    <form id="login form" onSubmit="validate(event)">
+        <fieldset>
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required >
+            </div>
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required minlength="8
+                " maxlength="20">
+            </div>
+            <div>
+                <label for="confirmPassword">Confirm Password:</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" required minlength="8" maxlength="20">
+            </div>
+            <div>
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" required min="18" max="60">
+            </div>
+            <button type="submit">Submit</button>
+
+
+        </fieldset>
+    </form>
+    <div id="message"></div>    
+</body>
+</html>

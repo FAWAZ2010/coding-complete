@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <p id="result"></p>
+  
+  <script>
+    product = (a, b) => a * b;
+    try{
+    document.getElementById("result").innerHTML = a;
+    }
+    catch (err) {
+        document.getElementById("result").innerHTML = "Error: " + err.message;
+    }
+
+  </script>
+</body>
+</html>

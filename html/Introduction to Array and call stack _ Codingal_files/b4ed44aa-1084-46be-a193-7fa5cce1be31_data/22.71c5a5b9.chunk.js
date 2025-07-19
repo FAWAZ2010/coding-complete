@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[22],{481:function(n,r,s){"use strict";s.r(r),s.d(r,"ConsoleTransport",(function(){return o}));var t=s(422);s.d(r,"Sentry",(function(){return t}));var e=s(424);s.d(r,"TracingIntegrations",(function(){return e.a}));class o{async sendEvent(n){return console.log("Sentry:",n),{status:"success",event:n}}async close(){return!0}}}}]);
+//# sourceMappingURL=22.71c5a5b9.chunk.js.map

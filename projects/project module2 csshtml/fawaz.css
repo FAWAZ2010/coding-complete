@@ -1,0 +1,21 @@
+a:hover{
+    color:blue;
+}
+/*sibling selector*/
+h1+p{
+    background-image: url("https://images.pexels.com/photos/1906658/pexels-photo-1906658.jpeg?auto=compress&cs=tinysrgb&w=600");
+}
+/*child selector*/
+ul >li{
+    font-family: serif;
+}
+/* nth child*/
+li:nth-child(4){
+    background-color: burlywood;
+}
+li::before{
+    content: "🖐🏻";
+}
+li::after{
+    content: "👍🏻";
+}

@@ -1,0 +1,21 @@
+a:hover{
+    color: darkred;
+}
+/*child selector*/
+ul > li{
+    font-weight:bolder;
+}
+/* sibling selector*/
+h1+p{
+    background-color: red;
+}
+/* nth-child*/
+li:nth-child(3){
+    background-color: lime;
+}
+li::before{
+    content:"😁";
+}
+li::after{
+    content:"";
+}

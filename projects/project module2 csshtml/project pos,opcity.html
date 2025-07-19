@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>positioning</title>
+        <style>
+            #fixed{
+                position: fixed;
+                top: 6px;
+                right: 4px;
+                border: 6px solid green;
+
+            }
+            #sticky{
+            position: sticky;
+            top: 1px;
+            right: 8px;; 
+            width: 60px;
+            border: 20px ridge darkblue ;
+  }
+  #relative{
+            position: sticky;
+            left: 7000px;
+            width: 200px;px;
+            border: 2px dashed orange ;
+        }
+        #absolute{
+           position: absolute;
+            top: 80px;
+            border: 7px groove purple;  
+        }
+        h1{
+            opacity: 0.5;
+        }
+        h2{
+            opacity: 1;
+        }
+        h3{
+            opacity: 0;
+        }
+
+        </style>
+    </head>
+    <body>
+        <h1>positioning</h1>
+        <p>Some types of positioning are as follows</p>
+        <h2>food</h2>
+        <h3>coding</h3>
+        <div id="fixed">fixed</div>
+        <div id="relative">relative
+            <div id="absolute">absolute</div>
+        </div>
+        <div id="sticky">sticky</div>
+    </body>
+</html>

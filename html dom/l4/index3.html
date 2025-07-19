@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Eval Function</h1>
+    <p>The eval() function evaluates JavaScript code represented as a string.</p>
+    <p id="result"></p>
+    <button onclick="myfuntion()">try it</button>
+    <script>
+        function myfunction(){
+            var x = 32;
+            var y = 21;
+            var d = 7;
+            var g = eval("x+y") + "<br>";
+            var f = eval ("b/y") + "<br>";
+            var r = eval ("x*d") + "<br>";
+
+            var res = g+f+r;
+            document.getElementById("result").innerHTML= res;
+
+
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>scope variables</title>
+</head>
+<body>
+    <h1>scope variables</h1>
+    <button onclick="myFunction()">click me</button>
+    <p id="killer"></p>
+    <p id="france"></p>
+    <script>
+        var x=5; 
+        //global variable
+        function myFunction(){
+            var d=10; //local variable
+            //local variable is only accessible within the function
+            document.getElementById("killer").innerHTML=x*d;//combination of global and local variable
+            //document.getElementById("killer").innerHTML=x*d;
+            document.getElementById("france").innerHTML=d+x
+        }
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project</title>
+</head>
+<body>
+   <p id="result"></p>
+   <script>
+    var i;
+    var text = "";
+    {
+        let i = 0;
+        while (i < 5) {
+            text += "The values inside the block: " + i + "<br>";
+            i++;
+        }
+        document.getElementById("result").innerHTML = text;
+        document.write("The value of i outside the block: " + i);
+    }
+   </script>   
+</body>
+</html>

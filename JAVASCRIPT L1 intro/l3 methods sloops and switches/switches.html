@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>switches</title>
+</head>
+<body>
+    <p id="papaye"></p>
+    <script>
+        //switches in js
+        var day = 2;
+        switch (new Date().getDay()) {
+            case 0:
+                day="Sunday";
+                break;
+            case 1:
+                day="Monday";
+                break;
+            case 2:
+                day="Tuesday";
+                break;
+            case 3:
+                day="Wednesday";
+                break;
+            case 4:
+                day="Thursday";
+                break;
+            case 5:
+                day="Friday";
+                break;
+            case 6:
+                day= "saturday"
+        }
+        document.getElementById("papaye").innerHTML = " Today is " + day;
+        //or you can also use this
+        document.write("<br>");
+        document.write(" Today is " + day);
+    </script>
+</body>
+</html>

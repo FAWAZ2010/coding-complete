@@ -1,0 +1,83 @@
+@font-face {
+    font-display: swap;
+    font-family: "Inter var";
+    font-named-instance: "Regular";
+    font-style: normal;
+    font-weight: 100 900;
+    src: url("inter/Inter-roman.var.woff2") format("woff2");
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Inter var";
+    font-named-instance: "Italic";
+    font-style: italic;
+    font-weight: 100 900;
+    src: url("inter/Inter-italic.var.woff2") format("woff2");
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    src: url("inter/Inter-Regular.woff2") format("woff2"), url("inter/Inter-Regular.woff") format("woff");
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Inter";
+    font-style: italic;
+    font-weight: 400;
+    src: url("inter/Inter-Italic.woff2") format("woff2"), url("inter/Inter-Italic.woff") format("woff");
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    src: url("inter/Inter-Medium.woff2") format("woff2"), url("inter/Inter-Medium.woff") format("woff");
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Inter";
+    font-style: italic;
+    font-weight: 500;
+    src: url("inter/Inter-MediumItalic.woff2") format("woff2"), url("inter/Inter-MediumItalic.woff") format("woff");
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    src: url("inter/Inter-SemiBold.woff2") format("woff2"), url("inter/Inter-SemiBold.woff") format("woff");
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Inter";
+    font-style: italic;
+    font-weight: 600;
+    src: url("inter/Inter-SemiBoldItalic.woff2") format("woff2"), url("inter/Inter-SemiBoldItalic.woff") format("woff");
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Whereby Condensed";
+    font-style: normal;
+    font-weight: 400;
+    src: url("whereby-roslindale/WherebyRoslindaleDisplayCondensed-Regular.woff2") format("woff2"),
+        url("whereby-roslindale/WherebyRoslindaleDisplayCondensed-Regular.woff") format("woff");
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Whereby Text";
+    font-style: normal;
+    font-weight: 400;
+    src: url("whereby-roslindale/WherebyRoslindaleText-Regular.woff2") format("woff2"),
+        url("whereby-roslindale/WherebyRoslindaleText-Regular.woff") format("woff");
+}
