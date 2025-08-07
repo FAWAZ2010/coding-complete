@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+        .container {
+            background-color:white ;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 16px;
+            color: #333;
+        }
+        .navigation-link{
+            border: 2px groove  #007bff;
+            padding: 10px;
+        }
+        .navigation-link:hover{
+            background-color: #007bff;
+            color: white;
+            border-bottom: 3px solid #0056b3;
+            text-decoration: underline;
+        }
+        .main-container {
+            padding: 20px;
+            background-color: #f8f9fa;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        h2 {
+            color: #343a40;
+        }
+        h1 {
+            color: #dc3545;
+        }
+        p {
+            color: #495057;
+        }
+        .text-black {
+            color: #000;
+        }
+        .text-danger {
+            color: #dc3545;
+        }
+        .text-center {
+            text-align: center;
+        }
+        .text-white {
+            color: #fff;
+        }
+        .bg-dark {
+            background-color: #343a40 !important;
+        }
+  </style>
+</head>
+<body>
+    
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <!-- Brand/logo -->
+  <a class="navbar-brand" href="#">
+    <img src="data:image/jpeg;base64,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" alt="logo" style="width:40px;">
+  </a>
+  
+  <!-- Links -->
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link 1</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link 2</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link 3</a>
+    </li>
+  </ul>
+</nav>
+
+<div class="container-fluid">
+  <h3>Brand / Logo</h3>
+  <p>When using the .navbar-brand class on images, Bootstrap 4 will automatically style the image to fit the navbar.</p>
+</div>
+</body>
+</html>
