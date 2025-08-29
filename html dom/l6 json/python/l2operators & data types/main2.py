@@ -20,3 +20,4 @@ print("Number 2 Greater or equal ?",num1<=num2)
 print("Not Equal ?",num1!=num2)
 result = num1/2+num2**2+10
 print("Result is:",result)
+
