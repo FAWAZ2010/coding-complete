@@ -12,4 +12,17 @@ print("sum:",add(num1,num2))
 print("difference:",subtract(num1,num2))
 print("product:",multiply(num1,num2)) 
 print("quotient:",divide(num1,num2))
+
+num = 21
+
+
+
+1
+2
+3
+5
+8
+13
+21
+
    
