@@ -5,4 +5,8 @@ while(num<=10):
     num = num+1
     
 print("Sum of First 10 Natural Numbers :",sum)    
-    
+
+
+def myfun():
+    print("Hello World")
+myfun()
