@@ -16,7 +16,6 @@ print("quotient:",divide(num1,num2))
 num = 21
 
 
-
 1
 2
 3
