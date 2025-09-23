@@ -6,3 +6,6 @@ print(sety)
 print("\nunionof two sets :")
 setz = setx.union(sety)
 print(setz)
+t=(1,2,2,)
+for i in t:
+    l.append(i)

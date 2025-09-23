@@ -26,7 +26,7 @@ for i in range(3):
     forward(300)
     left(120)
 end_fill()
-  
+    
   
 #  Right Mountain
 penup()
@@ -37,7 +37,7 @@ for i in range(3):
     forward(300)
     left(120)
 end_fill()  
-
+        
 # middle Mountain
 penup()
 goto(-160,-100)
@@ -47,6 +47,6 @@ begin_fill()
 for i in range(3):
     forward(400)
     left(120)
-end_fill()      
+end_fill()        
    
     
